@@ -1,5 +1,9 @@
 # Puzzle 2D para Android
 
+![Diseño sin título-2](https://user-images.githubusercontent.com/113204362/223595573-6be3aba8-8e7a-42fb-adc4-fc0301e3b7e1.gif)
+
+
+
 Este es un proyecto de puzzle 2D desarrollado para la materia de Programación de Dispositivos Móviles utilizando el IDE de Android Studio.
 
 ## Descripción
