@@ -60,8 +60,8 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardView1"
-                    android:layout_width="360dp"
-                    android:layout_height="640sp"
+                    android:layout_width="387dp"
+                    android:layout_height="580sp"
                     android:layout_margin="8dp"
                     app:cardCornerRadius="15dp"
                     app:cardElevation="5dp"
@@ -146,8 +146,8 @@
                     android:layout_height="match_parent"/>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="360dp"
-                    android:layout_height="640sp"
+                    android:layout_width="387dp"
+                    android:layout_height="580sp"
                     android:layout_margin="8dp"
                     app:cardCornerRadius="15dp"
                     app:cardElevation="5dp"
@@ -231,8 +231,8 @@
                     android:layout_height="match_parent"/>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="360dp"
-                    android:layout_height="640sp"
+                    android:layout_width="387dp"
+                    android:layout_height="580sp"
                     android:layout_margin="8dp"
                     app:cardCornerRadius="15dp"
                     app:cardElevation="5dp"
@@ -315,8 +315,8 @@
                     android:layout_height="match_parent"/>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="360dp"
-                    android:layout_height="640sp"
+                    android:layout_width="387dp"
+                    android:layout_height="580sp"
                     android:layout_margin="8dp"
                     app:cardCornerRadius="15dp"
                     app:cardElevation="5dp"
@@ -399,8 +399,8 @@
                     android:layout_height="match_parent"/>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="360dp"
-                    android:layout_height="640sp"
+                    android:layout_width="387dp"
+                    android:layout_height="580sp"
                     android:layout_margin="8dp"
                     app:cardCornerRadius="15dp"
                     app:cardElevation="5dp"

@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         // Crear un ImageView y configurar la imagen que desea mostrar
         ImageView imageView = new ImageView(this);
-        imageView.setImageResource(R.drawable.hint5);
+        imageView.setImageResource(R.drawable.qr);
 
         imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
 
