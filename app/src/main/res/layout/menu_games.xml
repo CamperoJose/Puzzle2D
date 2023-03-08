@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuGames">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18.7dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Bienvenido .."
+            android:textColor="#006DFF"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvUserPoints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Puntos"
+            android:textColor="#393737"
+            android:textSize="15sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40sp"/>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+
+                >
+
+                <Space
+                    android:layout_width="5sp"
+                    android:layout_height="match_parent"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView1"
+                    android:layout_width="360dp"
+                    android:layout_height="640sp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    android:backgroundTint="#C5E2FF"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/productImage1"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="357dp"
+                            android:background="@drawable/post1"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:id="@+id/productName1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Letras 3x3"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tablero 2D armable con contenido de Letras tamaño 3x3"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Puntos por resolver: 5pts"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tiempo límite: 3 minutos"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="#1566DF"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/btGame1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="100sp"
+                            android:layout_marginTop="18.7dp"
+
+                            android:layout_marginRight="100dp"
+                            android:background="@drawable/blue_fill__rounded_color"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp"
+                            android:text="JUGAR"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp" />
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="5sp"
+                    android:layout_height="match_parent"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="360dp"
+                    android:layout_height="640sp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    android:backgroundTint="#C5E2FF"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="357dp"
+                            android:background="@drawable/post2"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Letras 4x4"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tablero 2D armable con contenido de Letras tamaño 4x4"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Puntos por resolver: 12pts"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tiempo límite: 7 minutos"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="#1566DF"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/btGame2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="100sp"
+                            android:layout_marginTop="18.7dp"
+
+                            android:layout_marginRight="100dp"
+                            android:background="@drawable/blue_fill__rounded_color"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp"
+                            android:text="JUGAR"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp" />
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <Space
+                    android:layout_width="5sp"
+                    android:layout_height="match_parent"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="360dp"
+                    android:layout_height="640sp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    android:backgroundTint="#C5E2FF"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="357dp"
+                            android:background="@drawable/post3"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Números 3x3"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tablero 2D armable con contenido de Números tamaño 3x3"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Puntos por resolver: 6pts"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tiempo límite: 6 minutos"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="#1566DF"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/btGame3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="100sp"
+                            android:layout_marginTop="18.7dp"
+
+                            android:layout_marginRight="100dp"
+                            android:background="@drawable/blue_fill__rounded_color"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp"
+                            android:text="JUGAR"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp" />
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="5sp"
+                    android:layout_height="match_parent"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="360dp"
+                    android:layout_height="640sp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    android:backgroundTint="#C5E2FF"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="357dp"
+                            android:background="@drawable/post4"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Números 4x4"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tablero 2D armable con contenido de Números tamaño 4x4"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Puntos por resolver: 15pts"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tiempo límite: 9 minutos"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="#1566DF"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/btGame4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="100sp"
+                            android:layout_marginTop="18.7dp"
+
+                            android:layout_marginRight="100dp"
+                            android:background="@drawable/blue_fill__rounded_color"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp"
+                            android:text="JUGAR"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp" />
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="5sp"
+                    android:layout_height="match_parent"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="360dp"
+                    android:layout_height="640sp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    android:backgroundTint="#C5E2FF"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="357dp"
+                            android:background="@drawable/post5"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Pingüino 3x3"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tablero 2D armable con contenido de Pingüino tamaño 3x3"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Puntos por resolver: 9pts"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tiempo límite: 5 minutos"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="#1566DF"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/btGame5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="100sp"
+                            android:layout_marginTop="18.7dp"
+
+                            android:layout_marginRight="100dp"
+                            android:background="@drawable/blue_fill__rounded_color"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp"
+                            android:text="JUGAR"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp" />
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

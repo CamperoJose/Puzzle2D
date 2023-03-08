@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp" />
+
+
+        <TextView
+            android:id="@+id/tvEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Texto centrado arriba"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/btDesarmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="18.7dp"
+
+            android:layout_marginRight="100dp"
+            android:background="@drawable/blue_fill__rounded_color"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Desarmar"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cronometro2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="00:00"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:background="@drawable/puzzle3_fill__rounded_color"
+        android:layout_margin="20sp"
+        android:padding="20sp"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btA"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:tag="A"
+                android:textSize="42dp"
+                android:textStyle="bold"
+                app:backgroundTint="#8BCBED"
+                android:src="@drawable/pz01"
+                android:scaleType="fitXY"
+                android:padding="0sp"/>
+
+
+            <Space
+                android:layout_width="3dp"
+                android:layout_height="3dp" />
+
+            <ImageButton
+                android:id="@+id/btB"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:tag="B"
+                android:textSize="42dp"
+                android:textStyle="bold"
+                app:backgroundTint="#8BCBED"
+                android:src="@drawable/pz04"
+                android:scaleType="fitXY"
+                android:padding="0sp"/>
+
+            <Space
+                android:layout_width="3dp"
+                android:layout_height="3dp" />
+
+            <ImageButton
+                android:id="@+id/btC"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:tag="C"
+                android:textSize="42dp"
+                android:textStyle="bold"
+                app:backgroundTint="#8BCBED"
+                android:src="@drawable/pz07"
+                android:scaleType="fitXY"
+                android:padding="0sp"/>
+
+
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="3dp"
+            android:layout_height="3dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btD"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:tag="D"
+                android:textSize="42dp"
+                android:textStyle="bold"
+                app:backgroundTint="#8BCBED"
+                android:src="@drawable/pz02"
+                android:scaleType="fitXY"
+                android:padding="0sp"/>
+
+
+            <Space
+                android:layout_width="3dp"
+                android:layout_height="3dp" />
+
+            <ImageButton
+                android:id="@+id/btE"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:tag="E"
+                android:textSize="42dp"
+                android:textStyle="bold"
+                app:backgroundTint="#8BCBED"
+                android:src="@drawable/pz05"
+                android:scaleType="fitXY"
+                android:padding="0sp"/>
+
+
+            <Space
+                android:layout_width="3dp"
+                android:layout_height="3dp" />
+
+            <ImageButton
+                android:id="@+id/btF"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:tag="F"
+                android:textSize="42dp"
+                android:textStyle="bold"
+                app:backgroundTint="#8BCBED"
+                android:src="@drawable/pz08"
+                android:scaleType="fitXY"
+                android:padding="0sp"/>
+
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="3dp"
+            android:layout_height="3dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btG"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:tag="G"
+                android:textSize="42dp"
+                android:textStyle="bold"
+                app:backgroundTint="#8BCBED"
+                android:src="@drawable/pz03"
+                android:scaleType="fitXY"
+                android:padding="0sp"/>
+
+            <Space
+                android:layout_width="3dp"
+                android:layout_height="3dp" />
+
+
+
+            <ImageButton
+                android:id="@+id/btH"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:tag="H"
+                android:textSize="42dp"
+                android:textStyle="bold"
+                app:backgroundTint="#8BCBED"
+                android:src="@drawable/pz06"
+                android:scaleType="fitXY"
+                android:padding="0sp"/>
+
+            <Space
+                android:layout_width="3dp"
+                android:layout_height="3dp" />
+
+
+            <ImageButton
+                android:id="@+id/btX"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:tag="X"
+                android:textSize="42dp"
+                android:textStyle="bold"
+                app:backgroundTint="#8BCBED"
+                android:scaleType="fitXY"
+                android:padding="0sp"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/btVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="18.7dp"
+            android:layout_marginBottom="15sp"
+
+            android:layout_marginRight="100dp"
+            android:background="@drawable/blue_fill__rounded_color"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Volver"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

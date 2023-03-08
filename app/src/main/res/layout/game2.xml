@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp" />
+
+
+        <TextView
+            android:id="@+id/tvEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Texto centrado arriba"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/btDesarmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="18.7dp"
+
+            android:layout_marginRight="100dp"
+            android:background="@drawable/blue_fill__rounded_color"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Desarmar"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cronometro2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="00:00"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:background="@drawable/puzzle2_fill__rounded_color"
+        android:layout_margin="20sp"
+        android:padding="20sp"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btA"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="A"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btB"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="B"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btC"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="C"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btD"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="D"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+
+
+            <Button
+                android:id="@+id/btE"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="E"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btF"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="F"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btG"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="G"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btH"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="H"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btI"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="I"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btJ"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="J"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btK"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="K"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+
+            <Button
+                android:id="@+id/btL"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="L"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btM"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="M"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btN"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="N"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btO"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="O"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/game2_border_rounded_cornwe"
+
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+
+            <Button
+                android:id="@+id/btX"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#ADDF81"
+                android:text="X"
+                android:textColor="#ADDF81"
+
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/btVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="18.7dp"
+            android:layout_marginBottom="15sp"
+
+            android:layout_marginRight="100dp"
+            android:background="@drawable/blue_fill__rounded_color"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Volver"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
